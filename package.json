@@ -1,0 +1,28 @@
+{
+  "name": "graphql-twilio",
+  "version": "1.0.0",
+  "description": "Connecting GraphQL with Twilio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heug/graphql-twilio.git"
+  },
+  "author": "Eugene Choe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heug/graphql-twilio/issues"
+  },
+  "homepage": "https://github.com/heug/graphql-twilio#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.4",
+    "graphql": "^0.9.2",
+    "twilio": "^2.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
